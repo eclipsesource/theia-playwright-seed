@@ -4,8 +4,8 @@ This package uses the [Theia 🎭 Playwright](https://github.com/eclipse-theia/t
 
 ## Structure of this repository
 
-Your custom page objects should go into the folder `src`.
 Your tests should be placed in the folder `tests` and be named `*.test.ts`.
+Your custom page objects should go into the folder `page-objects`.
 The configuration of playwright is located in the folder `configs`.
 
 ## More documentation
