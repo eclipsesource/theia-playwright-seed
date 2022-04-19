@@ -13,8 +13,8 @@
  *
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  ********************************************************************************/
-import { TheiaApp } from '@theia/playwright/lib/src/theia-app';
+import { TheiaApp } from '@theia/playwright';
 
-export class CustomTheiaApp extends TheiaApp {
+export class MyTheiaApp extends TheiaApp {
 
 }

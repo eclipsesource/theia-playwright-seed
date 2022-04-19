@@ -14,9 +14,8 @@
     "rootDir": "."
   },
   "include": [
-    "src",
-    "tests",
-    "configs"
+    "configs",
+    "tests"
   ],
   "references": []
 }
