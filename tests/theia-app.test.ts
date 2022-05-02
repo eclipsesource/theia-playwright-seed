@@ -14,15 +14,14 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  ********************************************************************************/
 import { expect, Page, test } from '@playwright/test';
-import { TheiaApp } from '@theia/playwright';
 import { MyTheiaApp } from './page-objects/theia-app';
 
 let page: Page;
-let app: TheiaApp;
+let app: MyTheiaApp;
 
 test.beforeAll(async ({ browser }) => {
     page = await browser.newPage();
-    app = await MyTheiaApp.load(page);
+    app = await MyTheiaApp.loadApp(page, MyTheiaApp);
 });
 
 test.describe('My Theia application', () => {

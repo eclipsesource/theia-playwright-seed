@@ -1,4 +1,4 @@
-# Theia 🎭 Playwright Seed
+# Theia 🎭 Playwright Template
 
 This package uses the [Theia 🎭 Playwright](https://github.com/eclipse-theia/theia/tree/master/examples/playwright) page object model for testing a [Theia](https://github.com/eclipse-theia/theia)-based application.
 

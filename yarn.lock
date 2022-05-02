@@ -499,9 +499,9 @@
     yazl "^2.5.1"
 
 "@theia/playwright@next":
-  version "1.25.0-next.18"
-  resolved "https://registry.yarnpkg.com/@theia/playwright/-/playwright-1.25.0-next.18.tgz#a08756a4b36a00a67c25c9f56596ca41b6aad43c"
-  integrity sha512-9XvuIl4YQjM+7Dw1ir4kKpTWfaoHgrCeIUXbPfcW0Wv4njmdRYQw36t+fKrqiKxbZ8XxU6OA2q1QH7ZIJfpgoA==
+  version "1.26.0-next.1"
+  resolved "https://registry.yarnpkg.com/@theia/playwright/-/playwright-1.26.0-next.1.tgz#bc3942dcdd8c4ebe642dbb1d9b9d028d1628bf12"
+  integrity sha512-+XbLOwnXvbsqJhqam9BykQW1k9/BUK2Bl0aWdp1eRx5gIjZwHzDv6Re1FHhVBdYcty+vEM1KhxFeWNFG1+P01A==
   dependencies:
     "@playwright/test" "1.17.1"
     fs-extra "^9.0.8"
